@@ -21,7 +21,7 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views. perpus),
+    path('perpus/', views. perpus),
     path('', views. rakbuku), 
     path('api-auth/', include('rest_framework.urls'))
 ]
